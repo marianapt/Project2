@@ -5,24 +5,21 @@
     "database": "itsago",
     "host": "127.0.0.1",
     "dialect": "mysql"
-    ,"use_env_variable": "DATABASE_URL"
   },
   "test": {
     "username": "root",
     "password": null,
     "database": "database_test",
     "host": "127.0.0.1",
-    "dialect": "mysql",
-    "use_env_variable": "DATABASE_URL"
+    "dialect": "mysql"
 
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "c4a89ub7zfwfhe2l",
+    "password": "m0d5pqlle41b1076",
+    "database": "hg9hslz1m3xyee4f",
+    "host": "vhw3t8e71xdz9k14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
-    "use_env_variable": "DATABASE_URL"
-
+    "use_env_variable": "mysql://c4a89ub7zfwfhe2l:m0d5pqlle41b1076@vhw3t8e71xdz9k14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/hg9hslz1m3xyee4f"
   }
 }
