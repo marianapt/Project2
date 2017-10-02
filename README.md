@@ -1,19 +1,22 @@
-# It's a Go.
+# ItsaGO.
 
-HEROKU LINK:
-https://its-a-go.herokuapp.com/
-
-
+<a href="https://itsa-go.herokuapp.com/">See it live here/</a>
 
 Simple event and RSVP manager. Stop planning your parties and start *enjoying* them!
 
+# 3 simple steps:
+	* Red: Signup, login, create your event. You'll set:
+		* total cost of the event
+		* max cost per person
+		* RSVP cutoff date
+	* Yellow: Invite your friends. They will:
+		*recieve an email with the invite
+		*to RSVP, they will securely add their credit card information with Stripe.
+	* Green: It's a go!
+		* Once the max cost per person is less than or equal to what the creator set (from RSVPS), guest cards are charged!  The event is a go.  
+
+Never be stuck paying more than you agreed upon...
 
 
-install npm packages everytime you merge from master branch
 
-# todo 
-- Make a route /event/:id to display event info for a specific id. Not secured.
-- get stripe up to snuff, put the button where we need it.
-- Make the email HTML correct, send email on user create, and on event invites.
-- Make a participant table (will and jacque)
-- Change how cookies are checked -- IF user exists first.
+
