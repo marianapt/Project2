@@ -64,7 +64,7 @@ module.exports = function(userData, eventData) {
        console.log(err);
      }
      else {
-       console.log(info);
+       console.log(info) ;
      }
   });
 }
